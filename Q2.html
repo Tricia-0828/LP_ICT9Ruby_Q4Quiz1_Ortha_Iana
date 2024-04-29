@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Tangerine|Rouge+Script|Cookie">
+	<title>Quarter 2</title>
+	<style type="text/css">
+		body{
+			background-image: url(beige.png);
+			background-attachment: fixed;
+			background-size: cover;
+		}
+		h2{
+			font-size: 75px;
+			color: black;
+			font-family: Rouge Script; serif
+		}
+		.topnav {
+			overflow: hidden;
+			background-color: #897D77;
+		}
+		.topnav a {
+			float: left;
+			display: block;
+			color: whitesmoke;
+			text-align: center;
+			padding: 16px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+		a:hover {
+			background-color: #615853;
+			color: white;
+		}
+		a.active {
+		    background-color: #E6D0BB;
+			color: black;
+		}
+		img{
+			height: 60px;
+			width: 60px;
+			padding: 0px;
+		}
+		input{
+			float: center;
+			padding: 6px;
+			border: solid 2px;
+			border-radius: 15px;
+			margin-top: 8px;
+			font-size: 20px;
+		}
+		#search{
+			float: right;
+			margin-right: 15px;
+		}
+		#search-alert{
+			float: right;
+			margin-right: 15px;
+		}
+		#details {
+			display: none;
+		}
+		#Ex2{
+			border: 3.5px solid;
+			border-color: #BEA68C;
+			font-size: 30px;
+			text-decoration: none;
+			background-color: #D9CEC1;
+			margin: 15px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		#Fave-gallery{
+			border: 3.5px solid;
+			border-color: #BEA68C;
+			font-size: 30px;
+			text-decoration: none;
+			background-color: #D9CEC1;
+			margin: 15px;
+		}
+		#Project{
+			border: 3.5px solid;
+			border-color: #BEA68C;
+			font-size: 30px;
+			text-decoration: none;
+			background-color: #D9CEC1;
+			margin: 15px;
+		}
+		#Practice2{
+			border: 3.5px solid;
+			border-color: #BEA68C;
+			font-size: 30px;
+			text-decoration: none;
+			background-color: #D9CEC1;
+			margin: 15px;
+		}
+		#view{
+			margin-bottom: 5px;
+			border: 5px solid;
+			font-size: 35px;
+			cursor: pointer;
+		}
+		#button-bg{
+			background-color: beige;
+			border: solid 5px;
+			border-color: black;
+		}
+		#top-part{
+			background-color: #fff7ad;
+			margin-right: 667px;
+		}
+	</style>
+
+	<script> 
+
+		function viewDetails() {
+			document.getElementById("details").style.display = "block";
+		}
+
+	</script>
+</head>
+<body>
+	<center>
+		<div class="topnav">
+		  <img src="I.png">
+		  <a href="Mainpage.html">Home</a>
+		  <a href="Q1.html">Quarter 1</a>
+		  <a class="active" href="Q2.html">Quarter 2</a>
+		  <input type="text" placeholder="⌕ Search..." id="search">
+		</div>
+
+		<h2>
+			<b>•┈˚ʚ♡ɞ˚Quarter 2 Outputs˚ʚ♡ɞ˚┈•</b>
+		</h2>
+
+		<button onclick="viewDetails()" id="view"> View Details </button>
+	
+		<div id="top-part" class="col-md-1">
+			★★★
+		</div>
+
+			<div class="col-md-6" id="button-bg">
+				<div id="details"> 
+					<button id="Ex2">
+						<a href="quarter-two/Exercise2_Flexwrap.html" target="_blank" class="text-dark">Exercise 2 </a>
+					</button>
+					<button id="Fave-gallery">
+						<a href="quarter-two/flexwrap.html" target="_blank" class="text-dark">Favorite Gallery </a>
+					</button>
+					<button id="Project">
+						<a href="quarter-two/index.html" target="_blank" class="text-dark">Philippine Tourist Spots </a>
+					</button>
+					<button id="Practice2">
+						<a href="quarter-two/Practice1q2.html" target="_blank" class="text-dark">Practice</a>
+					</button><br><br>
+					<input type="submit" value="Click me!" onclick="alert('✧*̥˚ Thriving, not just surviving *̥˚✧')" style="cursor: pointer; margin-bottom: 25px;">
+				</div>
+			</div>
+	</center>
+		
+</body>
+</html>
